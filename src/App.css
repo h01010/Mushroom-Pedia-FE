@@ -1,11 +1,12 @@
 .App {
-  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   color: whitesmoke;
   height: 100%;
   padding: 20px;
+  font-family: 'Dejavu-Condensed';
+  box-sizing: border-box;
 }
 
 .App-logo {
