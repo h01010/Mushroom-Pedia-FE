@@ -14,12 +14,9 @@ import Footer from './components/layouts/Footer';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <p className="title">MUSHROOMS</p>
-      </header> */}
-      <Header />
       <div style={{ border: '1px solid whitesmoke', minHeight: '80%' }}>
         <Router>
+          <Header />
           <Routes>
             <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Home />} />
