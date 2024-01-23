@@ -23,8 +23,8 @@ function App() {
           <Route path="/ai-search" element={<AISearch />} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
