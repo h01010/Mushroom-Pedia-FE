@@ -27,8 +27,13 @@ body {
   height: 100%;
 }
 
+div, h3 {
+  margin: 0;
+}
+
 * {
-  color: whitesmoke
+  color: whitesmoke;
+  font-family: "Dejavu-Condensed";
 }
 
 #root {
