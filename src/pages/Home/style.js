@@ -8,6 +8,21 @@ export const HomeBox = styled.div`
   .home__description__box {
     margin-bottom: 60px;
     max-width: 80%;
+
+    &:hover {
+      transform: scale(1.1) !important;
+      background-color: rgb(35, 35, 35, 0.6);
+    }
+  }
+
+  #feature-1 {
+    opacity: 0;
+    animation: 1s ease-in-out 0.5s 1 normal both running easeinout;
+  }
+
+  #feature-2 {
+    opacity: 0;
+    animation: 1s ease-in-out 1s 1 normal both running easeinout;
   }
 
   .home__image--mushroom {
@@ -60,6 +75,8 @@ export const HomeTitleBox = styled.div`
   span {
     margin-bottom: 8px;
     letter-spacing: 5px;
+    opacity: 0;
+    animation: 1s ease-in-out 0.5s 1 normal forwards running easeinout;
   }
 `;
 
