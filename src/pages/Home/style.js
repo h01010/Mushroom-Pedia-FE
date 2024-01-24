@@ -23,8 +23,8 @@ export const HomeBox = styled.div`
   }
 
   #mushroom-img2 {
-    width: 26%;
-    top: 35%;
+    width: 30%;
+    top: 50%;
     right: 0;
     z-index: 70;
     transform: rotate(10deg);
@@ -32,9 +32,24 @@ export const HomeBox = styled.div`
 
   #mushroom-img3 {
     width: 25%;
-    top: 70%;
-    left: 25%;
+    top: 50%;
+    left: 35%;
     z-index: -1;
+  }
+
+  #mushroom-img4 {
+    width: 15%;
+    top: 10%;
+    right: 15%;
+    z-index: -1;
+    transform: rotate(10deg);
+  }
+
+  #mushroom-img5 {
+    width: 15%;
+    bottom: 2%;
+    left: 5%;
+    transform: rotate(-20deg);
   }
 `;
 

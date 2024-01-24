@@ -8,6 +8,8 @@ import {
 import amanitamuscaria_img from '../../assets/images/amanitamuscaria_img.png';
 import leucocybeconnata_img from '../../assets/images/leucocybeconnata_img.png';
 import omphalotusolearius_img from '../../assets/images/omphalotusolearius_img.png';
+import lactariusIndigo_img from '../../assets/images/lactariusIndigo_img.png';
+import boletusEdulis_img from '../../assets/images/boletusEdulis_img.png';
 
 const Home = () => {
   return (
@@ -57,6 +59,18 @@ const Home = () => {
         src={omphalotusolearius_img}
         id="mushroom-img3"
         alt="mushroom-img3"
+        className="home__image--mushroom"
+      />
+      <img
+        src={lactariusIndigo_img}
+        id="mushroom-img4"
+        alt="mushroom-img4"
+        className="home__image--mushroom"
+      />
+      <img
+        src={boletusEdulis_img}
+        id="mushroom-img5"
+        alt="mushroom-img5"
         className="home__image--mushroom"
       />
     </HomeBox>
